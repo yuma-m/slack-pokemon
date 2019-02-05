@@ -1,0 +1,9 @@
+version: '2'
+services:
+  app:
+    build: ./
+    environment:
+      - SLACK_TOKEN=write-your-token-here
+      - SLACK_CHANNEL=speficy-slack-channel
+      - SLACK_USERNAME=pokemon-bot
+      - SLACK_ICON=":question:"
